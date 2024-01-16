@@ -1,0 +1,32 @@
+{
+  "name": "swiggy",
+  "version": "1.0.0",
+  "description": "This is Swiggy Clone by Venumadhav",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venumadhav17/Swiggy-Clone.git"
+  },
+  "keywords": [],
+  "author": "Venumadhav",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venumadhav17/Swiggy-Clone/issues"
+  },
+  "homepage": "https://github.com/venumadhav17/Swiggy-Clone#readme",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserlist": [
+    "last 2 chrome versions"
+  ]
+}
