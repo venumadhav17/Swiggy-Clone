@@ -199,3 +199,24 @@ A. React Code is understandable because we are using JSX, Parcel, Here React is 
 7. Whenever we need to pass data dynamically and display cards dynamically we use optional chaining which will be the correct way of using props data.we taken optional chaining(resData?.data) which was used ealier in JavaScript.
 8. Here we use Mock data to get / check whether are getting from array or not and we use mock api to get data and JSX checks cross-side scripting which means mockdata which is coming from api contains malicious data or not.
 9. Once we get data from api we can store at resData variable like const { resData } = props; and we use props for reading data and for use that data in body and displays ouput which we are getting through mock data api.
+
+# 5th Part:
+
+1. Create each file for each component.
+2. import using named / default imports depending upon number of files we use in a particular components.
+3. Here, we are developing a button named as "Top Rated Restaurants" when we click on that button it will filtered out restaurant names based on the condition we provided.
+4. Here we use mock data to get filtered data.
+5. we are using useState Hooks concept to implement filtered data.
+6. Based on Hooks we used to render state and updates the value/s based on the state we provided.
+7. Whenever there is any change in state variable/state variable updates, react will render/re-render/s the whole component.
+   Ex: import {useState} from 'react'
+   const [listOfRestaurants, setListOfRestaurants] = useState([]);
+8. How usestate works behind the scenes,
+   we can write in Normal Js Variable too like,
+   const arr = useState([])
+   const [listOfRestaurants, setListOfRestaurants] = arr;
+   (or)
+   const arr = useState([])
+   const listOfRestaurants = arr[0]
+   const setListOfRestaurants = arr[1]
+   we can write in these ways in JavaScript How useState work behind the scenes.
